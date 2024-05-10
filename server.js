@@ -31,7 +31,7 @@ const complaintTracking = require('./routes/complaintTrackingRoute');
 
 
 const app = express();
-const PORT = process.env.PORT || 3003;
+const PORT = process.env.PORT || 3000;
 const MONGODB_URI = process.env.MONGODB_URI;
 
 app.use(express.json({ limit: '10mb' })); // Adjust the limit as needed
